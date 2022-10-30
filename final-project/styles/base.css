@@ -1,0 +1,49 @@
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0.2rem;
+}
+
+#containerTop {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.item1 {
+    display: grid;
+    text-align: center;
+    line-height: 0.1rem;
+}
+.item2 {
+    display: grid;
+    justify-items: center;
+}
+
+.item2 img {
+    height: 250px;
+    width: fit-content;
+}
+.item3 {
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    
+}
+
+.item3 h2 {
+    margin: 0;
+}
+
+.item4 {
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+footer {
+    text-align: center;
+}
+

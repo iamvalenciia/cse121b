@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project cse121b</title>
+
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="containerTop">
+            <section class="item1">
+                <h1>Project CSE121 B</h1>
+                <h2>Juan Valencia</h2>
+            </section>
+            <section class="item2">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Meta_Headquarters_Sign.jpg" alt="Meta Facebook logo, logotype">
+            </section>
+            <section class="item3">
+                <h2 id="nameStock"></h2>
+                <div id="infoStock">
+                </div>
+            </section>
+        </div>
+    </header>
+    <main>
+        <section class="item4">
+            <button id="button" onclick="myFunction()">Close Chart</button>
+            <canvas id="myChart"></canvas>
+        </section>
+    </main>
+    <footer>
+        <p id="the_time"></p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

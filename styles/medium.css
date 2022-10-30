@@ -1,0 +1,30 @@
+@media only screen and (min-width: 80em) {
+    header,
+    main,
+    footer {
+    margin: 0.5rem 30%;
+    padding: 1rem;
+    max-width: 1000px;
+    }
+
+    main {
+        padding: 0rem 1rem 1rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    #the_time {
+        font-size: 1rem;
+    }
+
+    .wdd230 {
+        font-size: 2rem;
+        padding: 0px 0px 20px;
+    }
+
+}
